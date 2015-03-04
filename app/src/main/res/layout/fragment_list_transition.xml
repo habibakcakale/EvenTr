@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    		  xmlns:tools="http://schemas.android.com/tools"
+   			  tools:context="com.special.MenuActivity$CalendarFragment"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              
+    <com.special.utils.UISwipableList
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+    	android:layout_marginRight="@dimen/list_horizontal_margin"
+    	android:layout_marginLeft="@dimen/list_horizontal_margin"/>
+    
+</FrameLayout>

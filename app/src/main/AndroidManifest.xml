@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.special"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity
+            android:name="com.special.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:configChanges="screenSize|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.special.DetailActivity"
+            android:label="@string/title_activity_detail_view" >
+        </activity>
+        <activity
+            android:theme="@style/AppThemeTrans"
+            android:name="com.special.TransitionDetailActivity"
+            android:label="@string/title_activity_detail_view" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="facebook" >
+        </activity>
+
+    </application>
+
+
+
+</manifest>

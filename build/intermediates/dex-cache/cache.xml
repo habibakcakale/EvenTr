@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.21.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\classes-036b881d89d71604e12bd1c8554b22c7ddb7e2e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\gson-2.3.1-2a2c38548ad58ca62f8fbace8669ed7bf0a402f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-1cdae2b433148734669d37310ac8b3373b1c1148.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-eadc2ddae3ac6b04824d60362f14bf52c0e27524.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\Source\template\app\libs\renderscript-v8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="19d54695d29d5ca94dda30368a7df0b33ffc17d7">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\renderscript-v8-a6ce6562d8f49919f6abe7708be48d30ad1638b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-79cd8b0d17ff270a55eea8b92c16c031b1dfc477.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\classes-b4b79813a2334dfff384d53c1ada355b88ac3215.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habib\Source\template\app\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0-ff9ae7a86a73907ecff186ee8b031a928489df27.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_id">327115564151084</string>
+
+    <string name="app_name">eventr</string>
+    <string name="title_activity_detail_view">DetailView</string>
+    <string name="button_placeholder_text">Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="dashed_area_text">Cool information you might would like to know, that is why it is in this dashed area!</string>
+    <string name="show">Show</string>
+    <string name="show_dialog_text">Show a Custom Dialog and Loader</string>
+
+    
+    <string name="four">Four</string>
+    <string name="three">Three</string>
+    <string name="two">Two</string>
+    <string name="one">One</string>
+    
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    
+    <string name="like">Like</string>
+    <string name="reply">Reply</string>
+    
+    <string name="detail_title_placeholder">Cool Title Of Some Movie</string>
+    <string name="contact_placeholder">Super useful contact info here I guess.\n\nProfile image is from FreePik.com</string>
+    <string name="social_1_placeholder">4.8</string>
+    <string name="social_1_placeholder_nr">15</string>
+    <string name="sumary_placeholder">Summary</string>
+    <string name="description_placeholder">Description</string>
+    <string name="description_tab_1">Wall</string>
+    <string name="description_tab_2">Contact</string>
+    <string name="image_description">Image Description</string>
+    <string name="description_title_placeholder">Cool Title Of Some Movie</string>
+    <string name="social_2_placeholder">Hotels &amp; Clubs</string>
+    <string name="social_3_placeholder">From 2 PM</string>
+    <string name="app_title">eventr</string>
+    <string name="explore">Explore</string>
+    <string name="hidden_view_text">Click Me</string>
+    <string name="list_title_placeholder">Amazing Title</string>
+    <string name="list_description_placeholder">Cool Content Description of Item</string>
+    <string name="list_number_text_placeholder">Characters</string>
+    <string name="list_number_placeholder">27</string>
+
+    <string name="dialog_title_placeholder">Styled Dialog</string>
+    <string name="dialog_button_text">" Cancel "</string>
+    <string name="placeholder_views">16 Thousand</string>
+    <string name="views">Views</string>
+    <string name="followers_placeholder">503</string>
+
+    <string name="text_input_hint">email</string>
+    <string name="text_input_hint_email">email</string>
+    <string name="text_input_hint_password">parola</string>
+
+    <string name="login_button_signin">Giriş</string>
+    <string name="dialog_text_placeholder">Lütfen bekleyiniz...</string>
+
+    <string name="followers">Takipçiler</string>
+
+
+
+</resources>

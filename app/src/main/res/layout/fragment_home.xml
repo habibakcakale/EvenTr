@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    			xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                tools:context="com.special.MenuActivity$HomeFragment">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusableInTouchMode="true">
+            
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image_description"
+                android:src="@drawable/logo"
+            android:layout_margin="50dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.facebook.widget.LoginButton
+                android:id="@+id/authButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                />
+
+        </LinearLayout>
+    	
+    	<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/emailText"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/tab_default"
+                android:textColor="@color/theme_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_input_hint_email"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/tab_default"
+                android:textColor="@color/theme_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/text_input_hint_password"
+                android:ems="10"
+                android:inputType="textWebPassword" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:padding="20dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/UIButtonInverse"
+                    android:text="@string/login_button_signin"
+                    android:textSize="@dimen/textsize_medium"
+                    android:padding="12dp"
+                    android:id="@+id/loginButton"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Parolanızı mı unuttunuz ?"
+                android:id="@+id/textView"
+                android:textColor="@color/theme_color"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
