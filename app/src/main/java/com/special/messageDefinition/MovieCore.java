@@ -20,8 +20,12 @@ public class MovieCore {
         this.sections = sections;
     }
 
-    public List<Movie> getMovies() {
+    public List<Movie> getLastWeekMovies() {
         return movies.get(0);
+    }
+
+    public List<Movie> getThisWeekMovies() {
+        return movies.get(1);
     }
 
     public void setMovies(List<List<Movie>> movies) {

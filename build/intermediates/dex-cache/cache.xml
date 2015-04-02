@@ -2,60 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.21.1\classes.jar"
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\classes-036b881d89d71604e12bd1c8554b22c7ddb7e2e2.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\classes-630c8a40fd2121b7dc9f996185e4eebc0c4f5c08.jar" />
     </item>
     <item
-        jar="C:\Users\Habib\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\gson-2.3.1-2a2c38548ad58ca62f8fbace8669ed7bf0a402f1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-1cdae2b433148734669d37310ac8b3373b1c1148.jar" />
-    </item>
-    <item
-        jar="C:\Users\Habib\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-eadc2ddae3ac6b04824d60362f14bf52c0e27524.jar" />
-    </item>
-    <item
-        jar="C:\Users\Habib\Source\template\app\libs\renderscript-v8.jar"
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\libs\renderscript-v8.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="19d54695d29d5ca94dda30368a7df0b33ffc17d7">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\renderscript-v8-a6ce6562d8f49919f6abe7708be48d30ad1638b4.jar" />
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\renderscript-v8-fa14ed0c34b7c6be3150f4e97030c14218fe9ea7.jar" />
     </item>
     <item
-        jar="C:\Users\Habib\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\classes-f8e0c8efa1ea33507f879cb97b9c50efa21be7d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.21.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\classes-84d5240c95779603a9616749cf9affea79d7e607.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-212cc950e973ba6a2ee7c9c0dc71b703098f91b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-79cd8b0d17ff270a55eea8b92c16c031b1dfc477.jar" />
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-4975b72389b1a9c5a0595cc4c4eb2bc210c122a5.jar" />
     </item>
     <item
-        jar="C:\Users\Habib\Source\template\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\classes-b4b79813a2334dfff384d53c1ada355b88ac3215.jar" />
-    </item>
-    <item
-        jar="C:\Users\Habib\Source\template\app\libs\nineoldandroids-library-2.4.0.jar"
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\libs\nineoldandroids-library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Habib\Source\template\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0-ff9ae7a86a73907ecff186ee8b031a928489df27.jar" />
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0-64895e0f24480450fa5c62a0f248908bfcab0991.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1a569e00abd637779a664a83f494f6446305d7c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\gson-2.3.1-830439ceecce44735960e3107f85255d70c2516d.jar" />
+    </item>
+    <item
+        jar="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77affff61296fc799ad6acd2066c1bcb8d5a7a6d">
+        <dex dex="C:\Users\CrimsonKing\AndroidStudioProjects\EvenTr\app\build\intermediates\pre-dexed\debug\classes-9b96033257135038fc57b3e08a31bebe6305d221.jar" />
     </item>
 
 </items>

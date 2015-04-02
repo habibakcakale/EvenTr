@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 21
     buildToolsVersion "21.1.2"
     defaultConfig {
         applicationId "com.special"
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 17
     }
     buildTypes {
@@ -24,4 +24,5 @@ dependencies {
     compile files('libs/renderscript-v8.jar')
     compile 'com.facebook.android:facebook-android-sdk:3.21.1'
     compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.pnikosis:materialish-progress:1.4'
 }

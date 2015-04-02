@@ -2,6 +2,11 @@ package com.special.core;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.BlurMaskFilter;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.AsyncTask;
@@ -14,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.pnikosis.materialishprogress.ProgressWheel;
 import com.special.R;
 import com.special.messageDefinition.Movie;
 import com.special.messageDefinition.MovieCore;
@@ -72,37 +78,75 @@ public class InTheatersListAdapter extends ArrayAdapter<Movie> {
         }
         viewHolder.title = (TextView) v.findViewById(R.id.item_title);
         viewHolder.type = (TextView) v.findViewById(R.id.typeText);
-        viewHolder.rating = (TextView) v.findViewById(R.id.item_rating);
         viewHolder.imageDescription = (TextView) v.findViewById(R.id.item_description);
         viewHolder.image = (ImageView) v.findViewById(R.id.item_image);
         viewHolder.orgName = (TextView) v.findViewById(R.id.orgName);
         viewHolder.director = (TextView) v.findViewById(R.id.directorText);
-        viewHolder.loadingPanel = (RelativeLayout) v.findViewById(R.id.loadingPanel);
+        viewHolder.loadingPanel = (ProgressWheel) v.findViewById(R.id.loadingPanel);
 
         Movie movie = getItem(position);
         //new ImageLoadTask(viewHolder.image).execute(movie.getImage());
-        viewHolder.title.setText(movie.getName());
+
+
         viewHolder.type.setText(movie.getType());
         viewHolder.director.setText(movie.getDirector());
         viewHolder.orgName.setText(movie.getOrgName());
-        viewHolder.rating.setText(String.format("Puan : %s/10", movie.getRating()));
-
         viewHolder.image.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
         viewHolder.image.setAdjustViewBounds(true);
-        Drawable movieImage = movie.getDrawableImage();
-        viewHolder.image.setImageDrawable(movieImage);
+        viewHolder.image.setImageDrawable(movie.getDrawableImage());
+
+
+        if(movie.getName().length() > 35){
+            viewHolder.title.setText(movie.getName().substring(0,34) + "...");
+        }else if(movie.getName().equals("")){
+            viewHolder.title.setText(movie.getOrgName());
+        }else{
+            viewHolder.title.setText(movie.getName());
+        }
+
+        if(movie.getOrgName().equals("")){
+            viewHolder.title.setText(movie.getName());
+        }
+
         return v;
+    }
+
+    public Bitmap highlightImage(Bitmap src) {
+        // create new bitmap, which will be painted and becomes result image
+        Bitmap bmOut = Bitmap.createBitmap(src.getWidth() + 96, src.getHeight() + 96, Bitmap.Config.ARGB_8888);
+        // setup canvas for painting
+        Canvas canvas = new Canvas(bmOut);
+        // setup default color
+        canvas.drawColor(0, PorterDuff.Mode.CLEAR);
+        // create a blur paint for capturing alpha
+        Paint ptBlur = new Paint();
+        ptBlur.setMaskFilter(new BlurMaskFilter(15, BlurMaskFilter.Blur.NORMAL));
+        int[] offsetXY = new int[2];
+        // capture alpha into a bitmap
+        Bitmap bmAlpha = src.extractAlpha(ptBlur, offsetXY);
+        // create a color paint
+        Paint ptAlphaColor = new Paint();
+        ptAlphaColor.setColor(0xFFFFFFFF);
+        // paint color for captured alpha region (bitmap)
+        canvas.drawBitmap(bmAlpha, offsetXY[0], offsetXY[1], ptAlphaColor);
+        // free memory
+        bmAlpha.recycle();
+
+        // paint the image source
+        canvas.drawBitmap(src, 0, 0, null);
+
+        // return out final image
+        return bmOut;
     }
 
     class ViewHolder {
         TextView title;
         TextView type;
-        TextView rating;
         TextView imageDescription;
         TextView orgName;
         TextView director;
         ImageView image;
-        RelativeLayout loadingPanel;
+        ProgressWheel loadingPanel;
         Bitmap b;
         int position;
     }

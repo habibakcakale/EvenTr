@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:descendantFocusability="blocksDescendants"
     android:layout_height="wrap_content" >
 
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:weightSum="100">
+        android:weightSum="100"
+        android:layout_marginTop="3dp">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:weightSum="1"
-            android:background="@color/gray_transparent"
-            android:layout_weight="42">
+            android:background="#20FFFFFF"
+            android:layout_weight="42"
+            android:id="@+id/in_theaters_movie_background">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -37,7 +42,7 @@
                 android:text="Yönetmen"
                 android:id="@+id/textView3"
                 android:textStyle="bold"
-                android:textColor="#ffffffff"
+                android:textColor="#c93846"
                 android:textSize="@dimen/textsize_medium_large"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -51,7 +56,8 @@
                 android:layout_weight="0.07"
                 android:textColor="#ffffffff"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"
+                android:textSize="15dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +65,7 @@
                 android:text="Tür"
                 android:id="@+id/textView2"
                 android:textStyle="bold"
-                android:textColor="#ffffffff"
+                android:textColor="#c93846"
                 android:textSize="@dimen/textsize_medium_large"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -83,21 +89,19 @@
             android:layout_width="fill_parent"
             android:layout_height="214dp"
             android:layout_weight="58"
-            android:layout_marginRight="1dp">
+            android:layout_marginRight="1dp"
+            android:background="@color/gray_transparent">
 
 
-            <RelativeLayout
+
+            <com.pnikosis.materialishprogress.ProgressWheel
                 android:id="@+id/loadingPanel"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ProgressBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:indeterminate="true" />
-            </RelativeLayout>
-
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                wheel:matProg_barColor="#c93846"
+                wheel:matProg_progressIndeterminate="true" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -121,7 +125,8 @@ android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:background="@color/white_transparent"
-android:layout_alignBottom="@+id/item_image">
+        android:layout_alignBottom="@+id/item_image"
+        >
 
         <TextView
             android:id="@+id/item_title"
@@ -132,25 +137,14 @@ android:layout_alignBottom="@+id/item_image">
             android:textSize="@dimen/textsize_medium_large"
             android:textColor="@color/gray"/>
 
-        <TextView
-            android:id="@+id/item_rating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:fontFamily="sans-serif-light"
-            android:padding="5dp"
-            android:textColor="@color/gray"
-            android:textSize="@dimen/textsize_medium_small_static" />
-
     </RelativeLayout>
-
-
 
     <ImageView
           android:contentDescription="@string/image_description"
-android:layout_width="match_parent"
-android:layout_height="4dp"
-android:background="@color/theme_color"/>
+          android:layout_width="match_parent"
+          android:layout_height="5dp"
+          android:background="#8d3548"
+          android:layout_marginBottom="2dp"
+          android:id="@+id/movie_list_seperator"/>
 
 </LinearLayout>
